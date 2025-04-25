@@ -1,70 +1,94 @@
-# Getting Started with Create React App
+# Projet 11 – Développez une application web avec React et React Router
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ce projet est le onzième du parcours **Développeur d'application JavaScript React** chez OpenClassrooms. Il consiste à développer le front-end de **Kasa**, une application de location de logements, en utilisant **React** et **React Router**.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🎯 Objectifs
 
-### `yarn start`
+- Initialiser une application web avec **Create React App**.
+- Créer des composants réutilisables avec **React**.
+- Implémenter le routage de l'application avec **React Router**.
+- Assurer une navigation fluide entre les différentes pages.
+- Respecter les maquettes fournies pour le design de l'application.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Technologies utilisées
 
-### `yarn test`
+- **React** (v17+)
+- **React Router** (v6+)
+- **Create React App**
+- **JavaScript** (ES6+)
+- **HTML5** / **CSS3**
+- **Git & GitHub**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `yarn build`
+## 📁 Structure du projet
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+kasa/
+├── public/
+│   └── index.html
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── App.js
+│   ├── index.js
+│   └── ...
+├── .gitignore
+├── package.json
+└── README.md
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## ▶️ Lancer le projet en local
 
-### `yarn eject`
+### 1. Cloner le dépôt
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+git clone https://github.com/Kurts350/P11_Kasa.git
+cd kasa
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 2. Installer les dépendances
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+npm install
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 3. Lancer l'application
 
-## Learn More
+```bash
+npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+L'application sera accessible à l'adresse : `http://localhost:3000`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## ✅ Checklist de validation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- [x] Initialisation du projet avec Create React App.
+- [x] Création de composants React fonctionnels.
+- [x] Mise en place du routage avec React Router.
+- [x] Intégration des maquettes fournies.
+- [x] Navigation fluide entre les pages.
+- [x] Code propre et bien structuré.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📄 Licence
 
-### Making a Progressive Web App
+Ce projet a été réalisé dans un but pédagogique dans le cadre de la formation OpenClassrooms – Développeur d'application JavaScript React.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 👤 Auteur
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**NIAKATE Biaguy**  
+Formation Développeur d'application JavaScript React – OpenClassrooms  
+📅 Novembre 2024
